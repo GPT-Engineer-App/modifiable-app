@@ -1,37 +1,65 @@
-# modifiable-app
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup using React and Chakra UI.
 
-## Collaborate with GPT Engineer
+## Features
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. Basic HTML structure
+2. Simple CSS for styling
+3. Basic JavaScript setup
 
-Changes made via gptengineer.app will be committed to this repo.
+## Getting Started
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+### Prerequisites
 
-## Tech stack
+- Node.js (v14 or later)
+- npm (v6 or later) or yarn (v1.22 or later)
 
-This project is built with React and Chakra UI.
+### Installation
 
-- Vite
-- React
-- Chakra UI
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-## Setup
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-```sh
-git clone https://github.com/GPT-Engineer-App/modifiable-app.git
-cd modifiable-app
-npm i
-```
+### Running the Application
 
+To start the development server, run:
 ```sh
 npm run dev
+# or
+yarn dev
 ```
 
-This will run a dev server with auto reloading and an instant preview.
+The application will be available at `http://localhost:3000`.
 
-## Requirements
+### Building for Production
 
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To build the application for production, run:
+```sh
+npm run build
+# or
+yarn build
+```
+
+The built files will be in the `dist` directory.
+
+### Modifying the Application
+
+- The main entry point of the application is `src/main.jsx`.
+- The main application component is `src/App.jsx`.
+- The home page component is `src/pages/Index.jsx`.
+
+Feel free to modify the components and styles as needed.
+
+## License
+
+This project is licensed under the MIT License.
